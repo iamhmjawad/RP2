@@ -1,0 +1,70 @@
+* website vs web application
+    website is a collection of web pages that are linked together and can be accessed via the internet
+    web application is a software application that is accessed via a web browser (multiple components)
+
+* components save the repitition of code
+    components are reusable pieces of code that can be used in multiple places
+    components are used to create a web application
+
+* npx uses the cli and create the react app instead of installing create-react-app globally
+    npx is a package runner that comes with npm
+    npx is used to run create-react-app without installing it globally
+
+
+* Two types of components
+    class components
+    functional components
+
+* can access variables in react html (jsx) using curly braces
+
+* change extension of file to .jsx to use jsx (using React javascript library)
+
+* use empty tag if you want to return more than one element
+    <>
+        <div></div>
+        <div></div>         
+    </>
+
+* empty tag is same as React.Fragment (import React, { Fragment } from 'react';)
+    <Fragment>
+        <div></div>
+        <div></div>
+    </Fragment>
+
+* can export default only one component
+    export default App;
+
+* to export multiple components from single file
+    export { App, About, Contact }
+
+* Similarly , can only be imported in carly braces
+    import { App, About } from './components/App';
+
+* export default can imported by any name. 
+    import Huehue from './components/App';
+    where App is the name of the component which is exported as default
+
+
+* rafce for react arrow function component export
+    rafce is a snippet in vs code
+
+
+    * can use props in functional components i.e. pass props and then use as props.name
+    * can use destructuring in functional components i.e. pass { name } and then use as name
+
+* need to install seperetae package for routing
+    npm install react-router-dom
+
+* Angular and NEXT are frameworks but React is a library
+
+* Chakra UI to existing ReactJS Project 
+    yarn add @chakra-ui/react
+
+* Check which Github Account is Selected
+    git config --list
+    git config --global user.name
+
+* Packages
+    react-router-dom   
+    react-router-carousel
+    

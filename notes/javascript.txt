@@ -1,0 +1,17 @@
+* remove curly braces in arrow function to return, if you have only one statement in the function body
+    const getGreeting = (name) => `Hello ${name}!`;
+
+*object destructuring
+    const person = {
+        name: 'Andrew',
+        age: 26,
+    };
+// to access the properties of the object, we can do this
+    console.log(person.name, person.age);
+
+// or we can use object destructuring
+    const {name, age} = person;
+
+    console.log(name, age);
+
+

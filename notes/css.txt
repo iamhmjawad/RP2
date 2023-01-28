@@ -1,0 +1,8 @@
+* box-sizing: border-box;
+* scroll-behavior: smooth;
+* rem
+
+* 1px 1px (vertically and horizontally) for the border of the input field
+* 1px 1px 1px 1px (top, right, bottom, left) for the border of the input field
+
+* font: italic 100 1.2rem $text2;
