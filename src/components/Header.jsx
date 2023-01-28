@@ -75,7 +75,7 @@ const Header = () => {
                 colorScheme={'purple'}
                 variant={'ghost'}
               >
-                <Link to={'/'}>Upload Video</Link>
+                <Link to={'/upload'}>Upload Video</Link>
               </Button>
             </VStack>
 
