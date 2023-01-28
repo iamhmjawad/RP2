@@ -20,6 +20,8 @@ const Header = () => {
   return (
     <>
       <Button
+        // otherways the button will be behind the drawer
+        zIndex={'overlay'}
         pos={'fixed'}
         top={'4'}
         left={'4'}

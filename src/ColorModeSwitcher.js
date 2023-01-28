@@ -16,6 +16,7 @@ const ColorModeSwitcher = props => {
 
       // to place it on the top right corner
       // 1 unit = 4px (default)
+      zIndex={1}
       pos={'fixed'}
       top="4"
       right="4"

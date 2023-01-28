@@ -69,3 +69,5 @@
     react-router-carousel
 
 * filter={'hue-rotate(-130deg)'}
+
+* If we set width = {'full'} in two or more VStacks, they take the same width (Equal)
