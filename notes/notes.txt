@@ -67,4 +67,5 @@
 * Packages
     react-router-dom   
     react-router-carousel
-    
+
+* filter={'hue-rotate(-130deg)'}
